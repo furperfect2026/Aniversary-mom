@@ -414,6 +414,9 @@ export default function App() {
               <p className="mt-8 opacity-70">
                 As you celebrate your togetherness, I want you to know how deeply you are loved and appreciated. You are not just my parents; you are my heroes and my greatest inspiration.
               </p>
+              <p className="mt-8 opacity-80 italic">
+                I love you soo muchhh Mumma Daddy ❤️❤️✨
+              </p>
             </div>
 
             <div className="mt-12 md:mt-16 text-right font-serif italic text-2xl text-rose">
