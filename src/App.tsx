@@ -406,7 +406,7 @@ export default function App() {
             
             <div className="prose prose-lg mx-auto text-coffee/80 font-serif leading-[1.9] md:leading-[2.5] text-left sm:text-justify text-lg md:text-xl">
               <p className="sm:indent-8 italic opacity-90">
-                Your love is the foundation of my family. Thank you for every sacrifice, every smile, and every beautiful memory you've created for me.
+                Your love is the foundation of our family. Thank you for every sacrifice, every smile, and every beautiful memory you've created for me.
               </p>
               <p className="mt-8 opacity-70">
                 The way you look at each other, the way you support one another, and the way you have built this incredible life together is the greatest lesson of love I could ever hope to learn.
