@@ -8,3 +8,4 @@ coverage/
 !.env.example
 *.zip
 photo-contact-sheet.jpg
+anniversary-tribute-site/

@@ -172,7 +172,7 @@ export default function App() {
           {/* REPLACE PHOTO HERE: images/hero-mom-dad.jpg */}
           <div
             className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: `linear-gradient(rgba(252, 250, 247, 0.4), rgba(252, 250, 247, 0.7)), url("${formatImg(CONFIG.heroImage)}")` }}
+            style={{ backgroundImage: `radial-gradient(circle at center, rgba(255, 253, 249, 0.82), rgba(250, 247, 242, 0.62) 42%, rgba(250, 247, 242, 0.86)), url("${formatImg(CONFIG.heroImage)}")` }}
           />
         </motion.div>
 
@@ -182,12 +182,12 @@ export default function App() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <span className="text-gold uppercase tracking-[0.22em] sm:tracking-[0.32em] md:tracking-[0.4em] text-[9px] sm:text-[10px] font-bold mb-4 block border-y border-gold/20 py-1.5 w-fit max-w-full mx-auto leading-relaxed">Celebrating Their 21st Anniversary Together</span>
-            <h1 className="text-5xl sm:text-6xl md:text-8xl text-coffee mb-5 md:mb-6 drop-shadow-sm font-serif leading-[0.95]">
+            <span className="hero-readable text-[#9a7208] uppercase tracking-[0.22em] sm:tracking-[0.32em] md:tracking-[0.4em] text-[9px] sm:text-[10px] font-bold mb-4 block border-y border-gold/40 bg-ivory/45 px-3 py-1.5 w-fit max-w-full mx-auto leading-relaxed rounded-full">Celebrating Their 21st Anniversary Together</span>
+            <h1 className="hero-readable text-5xl sm:text-6xl md:text-8xl text-coffee mb-5 md:mb-6 font-serif leading-[0.95]">
               Happy Anniversary <br />
-              <span className="text-gold italic">Mom & Dad</span>
+              <span className="text-[#9a7208] italic">Mom & Dad</span>
             </h1>
-            <p className="text-base sm:text-lg md:text-xl text-coffee opacity-70 font-light leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10">
+            <p className="hero-readable text-base sm:text-lg md:text-xl text-coffee/90 font-medium leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10">
               A celebration of love, togetherness, and the beautiful life you built.
             </p>
             <motion.div

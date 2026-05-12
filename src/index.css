@@ -34,6 +34,12 @@
   box-shadow: 0 10px 30px -10px rgba(184, 153, 126, 0.2);
 }
 
+.hero-readable {
+  text-shadow:
+    0 2px 14px rgba(255, 255, 255, 0.95),
+    0 1px 2px rgba(74, 55, 40, 0.25);
+}
+
 .timeline-line::before {
   content: "";
   @apply hidden md:block absolute left-1/2 -translate-x-1/2 w-0.5 h-full bg-gold/20;
